@@ -19,7 +19,7 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ---
 
-### TC_02: Mandatory Field Validation (Empty Password)
+### TC_02: Mandatory Field Validation (Empty Password / Empty Username)
 * **Technique:** Equivalence Partitioning (Negative).
 * **Priority:** Medium
 
