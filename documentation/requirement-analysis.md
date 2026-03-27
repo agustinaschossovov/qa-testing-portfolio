@@ -2,10 +2,10 @@
 
 Since this website is intended only for learning and practice purposes, it does not provide functional documentation. Therefore, I created **assumed requirements documentation** based on my interpretation of the expected system behavior.
 
-## 🗺️ User Story Mapping
+## User Story Mapping
 To organize the functionalities and ensure **bidirectional traceability**, I developed the following mapping:
 
-### 🗺️ User Story Mapping & Requirements
+### User Story Mapping & Requirements
 
 To establish **bidirectional traceability** and define the project scope, I created the following **User Story Mapping**. This visual guide helps to focus testing activities on core user flows and technical requirements.
 
