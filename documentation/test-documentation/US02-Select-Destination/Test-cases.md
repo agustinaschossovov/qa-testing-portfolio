@@ -13,7 +13,7 @@ This document details the test scenarios and cases for the travel selection bann
 
 ---
 
-## 2. Test Cases
+## 2. Critical Test Cases
 
 ### TC_01: Valid Travel Selection (Happy Path)
 * **Priority:** High
