@@ -1,0 +1,29 @@
+## Bug Report: Invalid Date Selection - Past Departure Date
+
+**Status:** 🔴 Open  
+**Severity:** High (Business Logic Violation)  
+**Priority:** High  
+
+### Description
+When a user selects **"Today"** as the return date in the Space Advisor search feature, the system automatically sets the **Departure Date** to the previous day (Yesterday). This allows for an impossible travel scenario where the departure occurs in the past.
+
+###  Steps to Reproduce
+1. Navigate to the Space Advisor search/booking page https://demo.testim.io/.
+2. Go to the **"Returning"** date picker.
+3. Select the current date (Today).
+4. Observe the **"Departing"** date field.
+
+### ❌ Actual Result
+The "Departing" field is automatically populated with a date from the past. 
+
+### ✅ Expected Result
+The "Departing" date should never be earlier than the current date. If the return is today, the departure should also be today (minimum).
+
+### 📸 Evidence
+![Bug 002 evidence](./bug-002-evidence.png)
+
+---
+
+### QA Analysis & Workaround
+* **Impact:** This bug affects the integrity of the booking data and could cause crashes in the backend during payment processing.
+* **Suggested Fix:** Implement a `minDate` constraint on the Departure picker that dynamically updates based on the current system date and the selected Return date.
