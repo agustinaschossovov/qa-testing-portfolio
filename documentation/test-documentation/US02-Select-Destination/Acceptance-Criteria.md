@@ -1,6 +1,6 @@
 # Acceptance Criteria: Select Space Travel Destination (US_02)
 
-## 📖 Requirement Overview
+## Requirement Overview
 
 **As an** end user, 
 
