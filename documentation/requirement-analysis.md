@@ -12,7 +12,4 @@ To establish **bidirectional traceability** and define the project scope, I crea
 ![User Story Mapping - Space Advisor](./user-story-mapping1.png)
 
 > [!TIP]
-> Each sticky note represents a specific user story with defined acceptance criteria and corresponding test cases.
-
-> [!TIP]
 > This mapping serves as the foundation for the Test Scenarios and ensures that every business goal is covered by technical validation.
