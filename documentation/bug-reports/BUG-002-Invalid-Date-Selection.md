@@ -1,8 +1,8 @@
 ## Bug Report: Invalid Date Selection 
 
-**Status: ** 🔴 Open  
-**Severity: ** High (Business Logic Violation)  
-**Priority: ** High  
+**Status:** 🔴 Open  
+**Severity:** High (Business Logic Violation)  
+**Priority:** High  
 
 ### Description
 When a user selects **"Today"** as the return date in the Space Advisor search feature, the system automatically sets the **Departure Date** to today and sets the **Returning Date** as tomorrow.
