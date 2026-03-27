@@ -27,6 +27,8 @@ This document contains the prioritized test cases for the Login functionality, d
 | :--- | :--- | :--- |
 | 1 | Enter a valid username but leave the Password field empty. | Input accepted in username. |
 | 2 | Click "Log In". | **System prevents login and an error message appears "Password is a required field."** |
+| 3 | Enter a valid password but leave the Username field empty. | Input accepted in password. |
+| 4 | Click "Log In". | **System prevents login and an error message appears "Name is a required field."** |
 
 ---
 
