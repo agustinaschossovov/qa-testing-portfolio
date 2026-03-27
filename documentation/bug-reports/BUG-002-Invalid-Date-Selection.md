@@ -1,30 +1,28 @@
-## Bug Report: Invalid Date Selection - Past Departure Date
+## Bug Report: Invalid Date Selection 
 
 **Status: ** 🔴 Open  
 **Severity: ** High (Business Logic Violation)  
 **Priority: ** High  
 
 ### Description
-When a user selects **"Today"** as the return date in the Space Advisor search feature, the system automatically sets the **Departure Date** to the previous day (Yesterday). This allows for an impossible travel scenario where the departure occurs in the past.
+When a user selects **"Today"** as the return date in the Space Advisor search feature, the system automatically sets the **Departure Date** to today and sets the **Returning Date** as tomorrow.
 
 ###  Steps to Reproduce
 1. Navigate to the Space Advisor search/booking page https://demo.testim.io/.
 2. Go to the **"Returning"** date picker.
-3. Select the current date (Today).
-4. Observe the **"Departing"** date field.
+3. Select the current date.
+4. Click on "Select Destination" button.
+5. Observe the **"Departing"** and **"Returning"** date field.
 
 ### ❌ Actual Result
-The "Departing" field is automatically populated with a date from the past. 
+The "Departing" field is automatically populated with today date and the "Returning" field is automatically populated with tommorrow date. 
 
 ### ✅ Expected Result
-The "Departing" date should never be earlier than the current date. If the return is today, the departure should also be today (minimum).
+The "Departing" date and the "Returning" date should never change to another date when the user picks a date and clicks the "Select Destination" button. 
 
-### 📸 Evidence
+### Evidence
 
 ![Bug-002-evidence](./bug-002-evidence.png)
 
 ---
 
-### QA Analysis & Workaround
-* **Impact:** This bug affects the integrity of the booking data and could cause crashes in the backend during payment processing.
-* **Suggested Fix:** Implement a `minDate` constraint on the Departure picker that dynamically updates based on the current system date and the selected Return date.
