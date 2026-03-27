@@ -16,7 +16,6 @@ This document details the test scenarios and cases for the travel selection bann
 ## 2. Critical Test Cases
 
 ### TC_01: Valid Travel Selection (Happy Path)
-* **Priority:** High
 * **Test Data:** `Departing: Today`, `Returning: Today + 5`, `Adults: 2`, `Children: 1`
 
 | Step | Action | Expected Result |
@@ -30,7 +29,6 @@ This document details the test scenarios and cases for the travel selection bann
 
 ### TC_02: Invalid Date Selection (Return < Departure)
 * **Technique:** Equivalence Partitioning.
-* **Priority:** Medium
 * **Pre-conditions:** User has selected a Departure date (e.g., Jan 15).
 
 | Step | Action | Expected Result |
@@ -40,9 +38,8 @@ This document details the test scenarios and cases for the travel selection bann
 
 ---
 
-### TC_03: Boundary Value Analysis - Passenger Dropdowns
+### TC_03: Passenger dropdown quantity boundary limits
 * **Technique:** Boundary Value Analysis (Min: 1, Max: 4).
-* **Priority:** Medium
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
@@ -55,7 +52,6 @@ This document details the test scenarios and cases for the travel selection bann
 
 ### TC_04: Default Passenger Logic (Business Rule)
 * **Technique:** Negative Testing.
-* **Priority:** Low
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
