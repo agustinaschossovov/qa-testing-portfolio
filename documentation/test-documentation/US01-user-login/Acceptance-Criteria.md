@@ -2,14 +2,14 @@
 
 This document details the functional and non-functional requirements that must be met for the User Login feature to be considered "Done".
 
-## 📖 Requirement Overview
+## Requirement Overview
 **As an** end user,  
 **I need to** be able to log in using my username and password,  
 **So that** I can securely access my account and personal travel bookings.
 
 ---
 
-## ✅ Functional Criteria
+## Functional Criteria
 
 ### 1. Core Authentication
 * **AC_01:** Verify that users can log in by entering a valid username and password.
@@ -34,7 +34,7 @@ This document details the functional and non-functional requirements that must b
 
 ---
 
-## 📱 Non-Functional Criteria (UI/UX)
+## Non-Functional Criteria (UI/UX)
 
 ### 5. Responsive Behavior (Mobile vs. Desktop)
 * **AC_14:** Verify that the Login screen displays correctly on mobile devices.
