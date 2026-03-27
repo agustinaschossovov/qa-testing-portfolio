@@ -2,7 +2,7 @@
 
 This document contains the prioritized test cases for the Login functionality, demonstrating the application of different testing techniques.
 
-## 🧪 Top 5 Critical Test Cases
+## Critical Test Cases
 
 ### TC_01: Valid Log In (Happy Path)
 * **Technique:** Use Case Testing.
@@ -43,14 +43,14 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ---
 
-### TC_04: Generic Error Message (Security Best Practice)
-* **Technique:** Security Testing.
+### TC_04: Password Masking (Visual Security)
+* **Technique:** Security Testing / UI Validation.
 * **Priority:** Medium
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Attempt to log in with an unregistered username. | - |
-| 2 | Click "Log In". | **The error message is generic and does not reveal which field is incorrect (Security).** |
+| 1 | Navigate to the Login screen. | - |
+| 2 | Enter any string in the Password field. | **Characters are masked (bullets/asterisks) to ensure privacy and prevent shoulder surfing.** |
 
 ---
 
