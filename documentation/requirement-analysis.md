@@ -9,7 +9,7 @@ To organize the functionalities and ensure **bidirectional traceability**, I dev
 
 To establish **bidirectional traceability** and define the project scope, I created the following **User Story Mapping**. This visual guide helps to focus testing activities on core user flows and technical requirements.
 
-![User Story Mapping - Space Advisor](./user-story-mapping.png)
+![User Story Mapping - Space Advisor](./user-story-mapping1.png)
 
 > [!TIP]
 > Each sticky note represents a specific user story with defined acceptance criteria and corresponding test cases.
