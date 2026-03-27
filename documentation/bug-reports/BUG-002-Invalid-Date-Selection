@@ -20,7 +20,7 @@ The "Departing" field is automatically populated with a date from the past.
 The "Departing" date should never be earlier than the current date. If the return is today, the departure should also be today (minimum).
 
 ### 📸 Evidence
-![Bug 002 evidence](./bug-002-evidence.png)
+![Bug-002-evidence](./bug-002-evidence.png)
 
 ---
 
