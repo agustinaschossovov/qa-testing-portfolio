@@ -35,7 +35,7 @@ For this feature, I applied the following design techniques to ensure quality:
 ---
 
 ## 📸 5. Evidence & UI Verification
-![Login View Showcase1](./login1.png)
-![Login View Showcase2](./login2.png)
+![Login View Showcase1](../login1.png)
+![Login View Showcase2](../login2.png)
 
 *Visual verification of the login interface (Desktop vs Mobile).*
