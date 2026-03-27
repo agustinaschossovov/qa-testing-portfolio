@@ -7,6 +7,8 @@
 ### Description
 When a user selects **"Today"** as the return date in the Space Advisor search feature, the system automatically sets the **Departure Date** to today and sets the **Returning Date** as tomorrow.
 
+## Test Case Failed: US02-Select-Destination --> TC-01 Valid Travel Selection (Happy Path)
+
 ###  Steps to Reproduce
 1. Navigate to the Space Advisor search/booking page https://demo.testim.io/.
 2. Go to the **"Returning"** date picker.
