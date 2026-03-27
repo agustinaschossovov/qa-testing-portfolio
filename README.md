@@ -1,6 +1,6 @@
-# 🚀 QA Testing Portfolio - Space Advisor 
+# QA Testing Portfolio - By Agustina Schossovov
 
-## 👤 Introduction
+## Introduction
 I am a **QA Analyst** with over **3+ years** of professional experience focused on ensuring the quality of web and mobile applications.
 
 > [!IMPORTANT]
@@ -8,17 +8,17 @@ I am a **QA Analyst** with over **3+ years** of professional experience focused 
 
 ---
 
-## 🚀 Project: Space Advisor (Functional Testing)
+## Project: Space Advisor (Functional Testing)
 **URL:** https://demo.testim.io/
 
 **Devices:** Desktop / Mobile  
 
 **Last Updated:** March 2026
 
-### 📌 Overview
+### Overview
 This project is a web application designed to provide **space travel booking services**. I used this site as a practice environment to apply formal manual functional testing techniques.
 
-### 🎯 Scope & Key Features
+### Scope & Key Features
 The testing focus is on core user flows to ensure a seamless booking experience:
 * **User Authentication:** Log In process.
 * **Search & Discovery:** Browse and Filter Space Travel Destinations.
@@ -27,11 +27,11 @@ The testing focus is on core user flows to ensure a seamless booking experience:
 
 ---
 
-## 🛠️ QA Strategy & Applied Skills
+## QA Strategy & Applied Skills
 
 For the **Space Advisor** project, I integrated my professional background with specific testing techniques to ensure high-quality delivery.
 
-### 📋 Core Skills Applied:
+### Core Skills Applied:
 * **Requirement Analysis & Documentation:** I performed a deep dive into the site's logic to create **User Stories** and **Acceptance Criteria** from scratch, applying a **Shift-Left Testing** approach.
 * **Test Design:** I designed comprehensive **Test Scenarios** using two complementary approaches:
     * **Formal Test Case Structure:** Used for granular, step-by-step technical validation and maximum coverage.
