@@ -2,6 +2,18 @@
 
 This document contains the prioritized test cases for the Login functionality, demonstrating the application of different testing techniques.
 
+## 1. Test Scenarios Mapping (US_01: User Log In)
+
+| Scenario ID | Test Scenario | Technique Applied | Acceptance Criteria Covered |
+| :--- | :--- | :--- | :--- |
+| **TC_01** | Successful Log In (Happy Path) | **Use Case Testing** | AC_01, AC_02 |
+| **TC_02** | Mandatory Field Validation (Empty inputs) | **Equivalence Partitioning (Neg.)** | AC_03, AC_04 |
+| **TC_03** | Invalid Credentials & Boundary Limits | **EP & Error Guessing** | AC_03, AC_05 |
+| **TC_04** | Password Masking (Visual Security) | **Security / UI Validation** | AC_06 |
+| **TC_05** | Cancel Button Behavior | **State Transition Testing** | AC_07 |
+
+---
+
 ## Critical Test Cases
 
 ### TC_01: Valid Log In (Happy Path)
