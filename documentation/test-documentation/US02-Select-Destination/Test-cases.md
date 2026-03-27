@@ -36,7 +36,7 @@ This document details the test scenarios and cases for the travel selection bann
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
 | 1 | Open the "Returning" date picker. | Calendar is displayed. |
-| 2 | Attempt to select a date prior to Jan 15. | **System prevents selection (date is disabled) or displays a validation error.** |
+| 2 | Attempt to select a date prior to Today number. | **System prevents selection (date is disabled) or displays a validation error.** |
 
 ---
 
