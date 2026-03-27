@@ -18,7 +18,6 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ### TC_01: Valid Log In (Happy Path)
 * **Technique:** Use Case Testing.
-* **Priority:** High
 * **Pre-conditions:** Browser open at `https://demo.testim.io/`.
 * **Test Data:** `User: user1` | `Pass: user1234`
 
@@ -33,7 +32,6 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ### TC_02: Mandatory Field Validation (Empty Password / Empty Username)
 * **Technique:** Equivalence Partitioning (Negative).
-* **Priority:** Medium
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
@@ -46,7 +44,6 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ### TC_03: Invalid Credentials (Negative Testing)
 * **Technique:** Equivalence Partitioning & Error Guessing.
-* **Priority:** High
 * **Test Data:** `User: user1` | `Pass: invalid_pass_123` / `Pass: [1000+ characters]`
 
 | Step | Action | Expected Result |
@@ -59,7 +56,6 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ### TC_04: Password Masking (Visual Security)
 * **Technique:** Security Testing / UI Validation.
-* **Priority:** Medium
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
@@ -70,7 +66,6 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ### TC_05: Cancel Button Behavior
 * **Technique:** State Transition Testing.
-* **Priority:** Low
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
