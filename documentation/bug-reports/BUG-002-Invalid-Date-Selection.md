@@ -22,9 +22,4 @@ The "Departing" field is automatically populated with today date and the "Return
 ### ✅ Expected Result
 The "Departing" date and the "Returning" date should never change to another date when the user picks a date and clicks the "Select Destination" button. 
 
-### Evidence
-
-![Bug-002-evidence](./bug-002-evidence.png)
-
----
 
