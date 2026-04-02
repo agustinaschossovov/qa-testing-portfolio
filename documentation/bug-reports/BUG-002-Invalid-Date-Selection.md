@@ -17,7 +17,7 @@ When a user selects **"Today"** as the return date in the Space Advisor search f
 5. Observe the **"Departing"** and **"Returning"** date field.
 
 ### ❌ Actual Result
-The "Departing" field is automatically populated with today date and the "Returning" field is automatically populated with tommorrow date. 
+The "Departing" field is automatically populated with today date and the "Returning" field is automatically populated with tomorrow date. 
 
 ### ✅ Expected Result
 The "Departing" date and the "Returning" date should never change to another date when the user picks a date and clicks the "Select Destination" button. 
