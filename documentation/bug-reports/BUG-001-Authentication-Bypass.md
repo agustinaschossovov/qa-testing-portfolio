@@ -1,9 +1,13 @@
 # Bug Report: Authentication Bypass on Login Screen
 
 **Bug ID:** BUG-001  
+
 **Status:** Open  
+
 **Severity:** Critical 🔴  
+
 **Priority:** High  
+
 **Environment:** `https://demo.testim.io/`  
 
 ---
