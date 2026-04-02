@@ -1,5 +1,6 @@
 # Bug Report: Returning date automatically populated by Departing date selection
 
+**Bug ID:** BUG-002
 **Status:** 🔴 Open  
 **Severity:** High (Business Logic Violation)  
 **Priority:** High  
