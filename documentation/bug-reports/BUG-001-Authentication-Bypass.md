@@ -4,7 +4,7 @@
 **Status:** Open  
 **Severity:** Critical 🔴  
 **Priority:** High  
-**Environment:** QA - `https://demo.testim.io/`  
+**Environment:** `https://demo.testim.io/`  
 
 ---
 
