@@ -11,11 +11,14 @@
 ### 6. Checkout Process & Forms
 * **Form Fields:** Verify that the Checkout page displays fields for: *Name, Email Address, Social Security Number, and Phone Number.*
 * **Order Summary:** Verify that the "Order Summary" correctly displays:
-    * Selected Dates (e.g., Jan 3 - 16).
+    * Selected Dates (e.g., Apr 4 - 10).
     * Number of travelers.
     * Unit price and Total price (calculated correctly).
 * **Promo Code:** Verify that the 'I have a promo code' field is visible and the 'APPLY' button is functional.
 * **Health Insurance Upload:** Verify that the drag-and-drop area for "Health insurance" is visible and accepts file uploads.
+![Example](./us4-ac2.png)
 
 ### 7. Destination Insights (Contextual Info)
 * **Temperature Graph:** Verify that when a destination is booked (e.g., Shenji), a yearly temperature graph/chart is displayed to help the user pack accordingly.
+
+![Example](./us4-ac3.png)
