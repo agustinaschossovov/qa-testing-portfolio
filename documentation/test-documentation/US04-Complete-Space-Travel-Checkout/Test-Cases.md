@@ -15,9 +15,9 @@
 
 ### TC_02: Order Summary Integrity (Checkout)
 * **Technique:** Data Integrity / Session Persistence.
-* **Pre-conditions:** User has selected 2 travelers and dates Jan 3 - 16.
+* **Pre-conditions:** User has selected 2 travelers and dates Any date - Any date.
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Navigate to the Checkout page after booking. | **Order Summary** panel correctly displays 2 travelers and Jan 3 - 16. |
-| 2 | Verify the **Total** price calculation. | Total reflects [Unit Price x 2 travelers] (e.g., $2,178.14). |
+| 1 | Navigate to the Checkout page after booking. | **Order Summary** panel correctly displays 2 travelers and Any date - Any date. |
+| 2 | Verify the **Total** price calculation. | Total reflects [Unit Price x 2 travelers]. |
