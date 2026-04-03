@@ -33,12 +33,22 @@ For the **Space Advisor** project, I integrated my professional background with 
 
 ### Core Skills Applied:
 * **Requirement Analysis & Documentation:** I performed a deep dive into the site's logic to create **User Stories** and **Acceptance Criteria** from scratch, applying a **Shift-Left Testing** approach.
+* * **Execution & Defect Management:** I performed manual end-to-end execution, focusing on **Bug Reporting** and suggesting UX/UI improvements.
+* **Traceability:** Maintained **Bidirectional Traceability** to ensure every requirement is covered by at least one test case.
 * **Test Design:** I designed comprehensive **Test Scenarios** using two complementary approaches:
     * **Formal Test Case Structure:** Used for granular, step-by-step technical validation and maximum coverage.
     * **BDD (Behavior Driven Development):** Applied specifically to core user journeys using **Gherkin syntax** (Given/When/Then) to demonstrate readiness for collaboration and future automation.
 * **Test Design Techniques:** I designed comprehensive **Test Scenarios** using formal Black-Box techniques:
-    * **Use Case Testing:** For end-to-end user flows (Booking).
-    * **Boundary Value Analysis (BVA):** For input fields and selection limits.
-    * **Equivalence Partitioning:** For data validation.
-* **Execution & Defect Management:** I performed manual end-to-end execution, focusing on **Bug Reporting** and suggesting UX/UI improvements.
-* **Traceability:** Maintained **Bidirectional Traceability** to ensure every requirement is covered by at least one test case.
+
+## Testing Techniques Summary
+
+The following table summarizes the strategic techniques applied across the 4 User Stories to ensure 100% logic coverage and high-quality standards.
+
+| Technique | Purpose |
+| :--- | :--- |
+| **Equivalence Partitioning** | Optimizes the test suite by grouping valid and invalid input sets to reduce redundancy. |
+| **Decision Table** | Ensures 100% coverage of all possible logic combinations between multiple filter variables. |
+| **Boundary Value Analysis** | Detects "off-by-one" errors at the exact edges of numerical ranges and input limits. |
+| **State Transition** | Validates the correct flow of the application from one status to another (e.g., Book -> Booked). |
+| **Negative Testing** | Verifies system resilience and ensures that mandatory error messages trigger on invalid data. |
+| **Data Integrity** | Confirms that user selection and session data persist without corruption across different pages. |
