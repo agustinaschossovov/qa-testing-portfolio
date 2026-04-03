@@ -1,3 +1,7 @@
+# Acceptance Criteria: Complete Space Travel Checkout (US_04)
+
+The following criteria define the mandatory requirements for a successful Checkout process. Each point must be verified to ensure the feature is "Done".
+
 ### 1. Booking & Cards Behavior
 * **State Transition:** Verify that clicking **'BOOK'** changes the button state to **'BOOKED'** and adds a check icon in the upper right corner of the card.
 
@@ -20,5 +24,19 @@
 
 ### 3. Destination Insights (Contextual Info)
 * **Temperature Graph:** Verify that when a destination is booked (e.g., Shenji), a yearly temperature graph/chart is displayed to help the user pack accordingly.
-
 ![Example](./us4-ac3.png)
+
+### 4. Mandatory Field Enforcement (Button State)
+Verify that the **"PAY NOW"** button remains disabled or shows an error if the user leaves the personal information fields (**Name, Email, Phone**) empty.
+
+### 5. Legal Compliance (Terms & Conditions)
+Verify that the user **cannot proceed** with the payment if the **"I agree to the terms and conditions"** checkbox is unchecked.
+
+### 6. Input Validation & Visual Feedback
+Verify that the user cannot proceed with payment if any of the following fields are empty or invalid: 
+* **Name**
+* **Email Address**
+* **Social Security Number** (Format: xxx-xx-xxxx)
+* **Phone Number** (AR format)
+
+**Note:** If any field is invalid, a specific warning message must appear directly above each empty/incorrect field (e.g., *"Name is a required field"*, *"Enter a valid e-mail address"*).
