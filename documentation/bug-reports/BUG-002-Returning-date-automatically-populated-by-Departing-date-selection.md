@@ -8,6 +8,8 @@
 
 **Priority:** High  
 
+**User Story:** Select Destination
+
 **Environment:** https://demo.testim.io/   
 
 **Test Case Failed:** US02-Select-Destination --> TC-01 Valid Travel Selection (Happy Path)
