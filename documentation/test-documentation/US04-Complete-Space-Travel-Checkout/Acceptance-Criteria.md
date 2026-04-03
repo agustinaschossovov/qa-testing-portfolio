@@ -1,7 +1,7 @@
 ### 5. Booking & Cards Behavior
 * **State Transition:** Verify that clicking **'BOOK'** changes the button state to **'BOOKED'** and adds a check icon in the upper right corner of the card.
 
-![state-transition](./us3-ac5.1.png)
+![state-transition](./us4-ac1.png)
  
 * **Session Persistence:** Verify that clicking 'BOOK' successfully captures the item's unique identifier and redirects to the **Checkout page** with the item in the session.
 * **UI Resilience:** * Verify layout stability on different screen sizes.
