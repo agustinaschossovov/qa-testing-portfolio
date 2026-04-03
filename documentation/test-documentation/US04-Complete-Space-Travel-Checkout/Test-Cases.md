@@ -42,7 +42,7 @@ This document details the testing strategy and critical scenarios for the **Spac
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Leave **Name** empty and change focus. | Warning appears: **"Name is a required field"**. |
+| 1 | Write something in name, delete it, leave **Name** empty and change focus. | Warning appears: **"Name is a required field"**. |
 | 2 | Enter invalid SSN format (e.g., "123-AB-456"). | Warning appears: **"Enter a valid Social Security number (xxx-xx-xxxx)"**. |
 | 3 | Observe **'PAY NOW'** button. | Button remains **disabled** until all fields are valid according to AC_6. |
 
@@ -52,7 +52,7 @@ This document details the testing strategy and critical scenarios for the **Spac
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
 | 1 | Fill all mandatory fields with valid data. | No error messages are visible. |
-| 2 | Leave **"I agree to the T&C"** unchecked. | Payment is blocked; button remains disabled or triggers alert. |
+| 2 | Leave **"I agree to the T&C"** unchecked and Click on 'Pay Now' button. | Payment is blocked; the system triggers alert message "Terms and Conditions. You must agree to the terms and conditions to complete your purchase. |
 | 3 | Check the box and proceed. | System allows navigation to the final payment confirmation. |
 
 ### TC_05: Dynamic Destination Insights (Climate Graph)
