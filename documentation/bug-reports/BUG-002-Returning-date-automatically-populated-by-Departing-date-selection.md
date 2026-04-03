@@ -10,12 +10,12 @@
 
 **Environment:** https://demo.testim.io/   
 
+**Test Case Failed:** US02-Select-Destination --> TC-01 Valid Travel Selection (Happy Path)
+
 ---
 
 ### Description
 In the **Space Advisor** search feature, selecting a **Departing date** triggers an unintended automatic update to the **Returning date** field. This behavior forces a date into the return field before the user has made a choice.
-
-**Linked Test Case:** `US02-Select-Destination` --> `TC-01 Valid Travel Selection (Happy Path)`
 
 ---
 
