@@ -52,7 +52,7 @@ This document details the testing strategy and critical scenarios for the **Spac
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
 | 1 | Fill all mandatory fields with valid data. | No error messages are visible. |
-| 2 | Leave **"I agree to the T&C"** unchecked and Click on 'Pay Now' button. | Payment is blocked; the system triggers alert message "Terms and Conditions. You must agree to the terms and conditions to complete your purchase. |
+| 2 | Leave **"I agree to the T&C"** unchecked and Click on 'Pay Now' button. | Payment is blocked; the system triggers alert message "Terms and Conditions. You must agree to the terms and conditions to complete your purchase." |
 | 3 | Check the box and proceed. | System allows navigation to the final payment confirmation. |
 
 ### TC_05: Dynamic Destination Insights (Climate Graph)
