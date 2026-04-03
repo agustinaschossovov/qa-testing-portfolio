@@ -87,22 +87,29 @@ To ensure all logic combinations between "Launch" (Destination Planet) and "Plan
 | 3 | Verify UI feedback. | The grid remains empty. |
 
 ### TC_06: Price Range Slider Boundary Limits
-* **Technique:** Boundary Value Analysis (Min: $100, Max: $1800).
+
+* **Technique:** Boundary Value Analysis (BVA).
+* **Objective:** Verify the system's precision at the exact edge cases of the price range ($100 - $1800).
+* **Test Data:** Boundaries ($100, $1800), off-points ($99, $1801) and an inside range ($1089).
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Drag the price slider to the minimum (**$100**). | **Boundary "On":** Grid displays destinations starting from the $100 floor. |
-| 2 | Drag the slider to a maximum of **$1800**. | **Boundary "On":** Destinations priced at exactly $1800 remain visible. |
-| 3 | Verify a card with price **$1089.07**. | **Value "In":** The card remains visible as it is within the active range. |
+| 1 | Drag the price slider to the **Lower Boundary ($100)**. | Destinations priced at exactly $100 remain visible (Neither of the planets costs $100 so the grid remains empty). |
+| 2 | Attempt to find a destination priced at **$99**. | The input updates to $100 when trying to write $99 because the system does not accept entering numbers below $100. |
+| 3 | Drag the slider to the **Upper Boundary ($1800)**. | Destinations priced between $100 and $1800 remain visible. |
+| 4 | Verify a destination priced at **$1801**. | The input updates to $1800 when trying to write $1801 because the system does not accept entering numbers above $1800. |
+| 5 | Filter for a value **Inside** the range (e.g., **$1089**). | The destinations that costs between $100 and $1089 remains visible. |
 
 ### TC_07: Dynamic Summary Update (Dates & Travelers)
-* **Test Data:** `Departing: Jan 3`, `Returning: Jan 16`, `Adults: 2`.
+* **Test Data:** `Departing: Current date`, `Returning: Current date + 4 days`, `Adults(+18): 2`, **`Children(0-7): 2`**.
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Select the specified Departure and Return dates. | Summary bar at the bottom displays: **"Jan 3 - 16"**. |
-| 2 | Increase "Adults (18+)" to **2**. | Summary bar updates to: **"2 travelers"**. |
-| 3 | Validate the full summary string. | Text displays: **"2 travelers, Jan 3 - 16"**. |
+| 1 | Select the specified Departure and Return dates. | Summary bar at the bottom displays: **"Current date - Current date + 4 days"**. |
+| 2 | Increase "Adults (18+)" to **2** and "Children(0-7)" to **2**. | Summary bar updates to: **"4 travelers"**. |
+| 3 | Validate the full summary string. | Text displays: **"4 travelers, Current date - Current date + 4 days"**. |
+
+![Example](./us3-ac2.1.png)
 
 ### TC_08: Destination Booking & State Transition
 * **Technique:** State Transition Testing.
