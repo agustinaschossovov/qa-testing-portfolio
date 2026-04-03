@@ -62,4 +62,4 @@ This document details the testing strategy and critical scenarios for the **Spac
 | :--- | :--- | :--- |
 | 1 | Book a specific planet (e.g., **"Madan"**). | Redirection to Checkout is successful. |
 | 2 | Scroll to the **"Destination Insights"** section. | A yearly temperature graph for Madan is visible. |
-| 3 | Verify graph legend. | Includes the text: *"pack accordingly"* (as per AC_3). |
+| 3 | Verify graph legend. | Includes the text: *"Here is a yearly temp graph for your convenience ― pack accordingly"* (as per AC_3). |
