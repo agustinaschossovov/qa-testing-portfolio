@@ -2,15 +2,17 @@
 
 **ID:** BUG_US03_001  
 
-**User Story:** [US_03 - Browse and Filter Destinations]  
+**User Story:** US_03 - Browse and Filter Destinations
 
-**Test Case Reference:** [TC_05: Negative Filtering (No Matching Results)](#tc_05-negative-filtering-no-matching-results)  
+**Test Case Failed:** US03-Browse-and-Filter-Destinations --> TC_05 Negative Filtering (No Matching Results)  
 
 **Priority:** Medium  
 
 **Severity:** Minor (UI/UX Inconsistency)  
 
 **Status:** 🔴 Open  
+
+**Environment:** https://demo.testim.io/destinations
 
 ---
 
@@ -33,13 +35,10 @@ If the filter combination returns **0 results**, the "Load More" button must be 
 ![Screenshot showing: Empty Grid + "Load More" button visible on an invalid filter combination.](./bug-03.png)
 ---
 
-### 🛠️ Technical Environment
-* **Environment:** https://demo.testim.io/destinations
+### Technical Environment
+
 * **Browser:** Chrome (Latest Version)
 * **Device:** Desktop / Windows 11
 * **Date:** April 2026
 
 ---
-
-### 🧠 QA Analyst Note
-This bug was discovered during **Negative Testing** of the filtering logic. Although the backend correctly filters the data, the frontend component for pagination ("Load More") does not listen to the result count to toggle its visibility.
