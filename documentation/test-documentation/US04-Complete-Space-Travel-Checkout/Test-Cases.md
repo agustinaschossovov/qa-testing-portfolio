@@ -2,8 +2,8 @@
 
 | Scenario ID | Test Scenario | Technique Applied | Acceptance Criteria Covered |
 | :--- | :--- | :--- | :--- |
-| **TC_08** | Destination Booking & State Transition | State Transition Testing | AC_05 |
-| **TC_09** | Order Summary Integrity (Checkout) | Session / Data Integrity | AC_05, AC_06 |****
+| **TC_01** | Destination Booking & State Transition | State Transition Testing | AC_05 |
+| **TC_02** | Order Summary Integrity (Checkout) | Session / Data Integrity | AC_05, AC_06 |****
 
 ### TC_01: Destination Booking & State Transition
 * **Technique:** State Transition Testing.
