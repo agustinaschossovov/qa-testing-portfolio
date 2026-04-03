@@ -14,10 +14,11 @@
 
 ![1 traveler](./us3-ac2.png)
 
-* **Dynamic date update:** Verify that when dates are selected in the picker, they appear in the summary with the format: `[Month] [Day] - [Day]`.
-    * *Example:* Selecting Jan 3 (Departing) and Jan 9 (Returning) should display **"Jan 3 - 9"**.
+* **Dynamic date and travelers update:** Verify that when dates and travelers are selected in the picker, they appear in the summary with the format: `[Amount Travelers], [Month] [Day] - [Day]`.
+    * *Example:* Selecting Apr 3 (Departing) and Apr 7 (Returning) should display **"Apr 3 - 7"**.
+    * *Example:* Selecting 2 (Adults (+18)) and 2 (Children(0-7)) should display **"4 travelers"**.
 
-![Jan 3 - 9](./us3-ac2.1.png)
+![Example](./us3-ac2.1.png)
 * **Data integrity:** Verify that the traveler count and dates reflect the exact values selected in the hero banner.
 
 ![data-integrity](./us3-ac2.2.png)
