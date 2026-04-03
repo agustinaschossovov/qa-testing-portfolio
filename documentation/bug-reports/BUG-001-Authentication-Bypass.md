@@ -10,14 +10,14 @@
 
 **Environment:** `https://demo.testim.io/`  
 
+**Test Case Failed:** US01-user-login --> TC_03: Invalid Credentials (Negative Testing) 
+
 ---
 
 ## Description
 The login functionality fails to validate user credentials. The system grants access to the "Main Page" regardless of the input provided in the Username and Password fields, including invalid data and extreme character lengths (1000+).
 
-
-## Test Case Failed: US01-user-login --> TC_03: Invalid Credentials (Negative Testing) 
-
+---
 
 ## Steps to Reproduce
 1. Navigate to `https://demo.testim.io/`.
