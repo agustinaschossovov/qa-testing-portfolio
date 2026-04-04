@@ -12,7 +12,7 @@
 
 **Environment:** `https://demo.testim.io/`  
 
-**Test Case Failed:** US01-user-login --> TC_03: Invalid Credentials (Negative Testing) 
+**Test Case Failed:** TC_03: Invalid Credentials (Negative Testing) 
 
 ---
 
