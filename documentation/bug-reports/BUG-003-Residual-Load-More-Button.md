@@ -4,7 +4,7 @@
 
 **User Story:** US_03 - Browse and Filter Destinations
 
-**Test Case Failed:** US03-Browse-and-Filter-Destinations --> TC_05 Negative Filtering (No Matching Results)  
+**Test Case Failed:** TC_05 Negative Filtering (No Matching Results)  
 
 **Priority:** Medium  
 
