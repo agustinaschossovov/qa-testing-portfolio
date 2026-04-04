@@ -16,7 +16,7 @@ This document details the testing strategy and critical scenarios for the **Spac
 
 ---
 
-## 2. Critical Test Cases Detail
+## 2. Critical Test Cases
 
 ### TC_01: Destination Booking & State Transition
 * **Technique:** State Transition Testing.
@@ -24,7 +24,7 @@ This document details the testing strategy and critical scenarios for the **Spac
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Click the **'BOOK'** button on a destination card. | Button text changes to **'BOOKED'** and a purple checkmark appears. |
+| 1 | Click the **'BOOK'** button on a destination card. | Button text changes to **'BOOKED'** and a purple checkmark appears in the card. |
 | 2 | Observe system behavior. | User is automatically redirected to the **Checkout** page. |
 | 3 | Verify card body interaction. | Clicking the image or text remains read-only (no action). |
 
@@ -34,17 +34,20 @@ This document details the testing strategy and critical scenarios for the **Spac
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Navigate to the Checkout page after booking. | **Order Summary** panel correctly displays 2 travelers and selected dates. |
-| 2 | Verify the **Total** price calculation. | Total reflects correctly: `[Unit Price x 2 travelers]`. |
+| 1 | Click "Select Destination" button. | The systems redirects to the "Your next Destination" section. | 
+| 2 | Click "Booked" button from a card. | The systems redirects to the "Checkout" section. | 
+| 3 | Verify "Checkout" section. | **Order Summary** panel correctly displays 2 travelers and selected dates. |
+| 4 | Verify the **Total** price calculation. | Total reflects correctly: `[Unit Price x 2 travelers]`. |
 
-### TC_03: Mandatory Form Fields & Inline Validation
+### TC_03: Mandatory Form Fields
 * **Technique:** Negative Testing / Input Validation.
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
-| 1 | Write something in name, delete it, leave **Name** empty and change focus. | Warning appears: **"Name is a required field"**. |
-| 2 | Enter invalid SSN format (e.g., "123-AB-456"). | Warning appears: **"Enter a valid Social Security number (xxx-xx-xxxx)"**. |
-| 3 | Observe **'PAY NOW'** button. | Button remains **disabled** until all fields are valid according to AC_6. |
+| 1 | Write something in the **Name** field, then delete it, and change focus. | Warning appears: **"Name is a required field"**. |
+| 2 | Enter invalid email format in **Email Address** field. | Warning appears: **Enter a valid e-mail address (x@xxxx.xxx)**. |
+| 3 | Enter invalid SSN format (e.g., "123-AB-456") in **Social Security Number** field. | Warning appears: **"Enter a valid Social Security number (xxx-xx-xxxx)"**. |
+| 4 | Observe **'PAY NOW'** button. | Button remains **disabled** until all fields are valid according to AC_6. |
 
 ### TC_04: Legal Consent (Terms & Conditions) Enforcement
 * **Technique:** Logic Testing.
@@ -52,11 +55,11 @@ This document details the testing strategy and critical scenarios for the **Spac
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
 | 1 | Fill all mandatory fields with valid data. | No error messages are visible. |
-| 2 | Leave **"I agree to the T&C"** unchecked and Click on 'Pay Now' button. | Payment is blocked; the system triggers alert message "Terms and Conditions. You must agree to the terms and conditions to complete your purchase." |
+| 2 | Leave **"I agree to the terms and conditions"** unchecked and Click on 'Pay Now' button. | Payment is blocked; the system triggers alert message "Terms and Conditions. You must agree to the terms and conditions to complete your purchase." |
 | 3 | Check the box and proceed. | System allows navigation to the final payment confirmation. |
 
 ### TC_05: Dynamic Destination Insights (Climate Graph)
-* **Technique:** Visual / Contextual UI Testing.
+* **Technique:** UI Testing.
 
 | Step | Action | Expected Result |
 | :--- | :--- | :--- |
