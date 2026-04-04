@@ -13,7 +13,7 @@ I am a **QA Analyst** with over **3+ years** of professional experience focused 
 
 **Devices:** Desktop / Mobile  
 
-**Last Updated:** March 2026
+**Last Updated:** April 2026
 
 ### Overview
 This project is a web application designed to provide **space travel booking services**. I used this site as a practice environment to apply formal manual functional testing techniques.
@@ -26,6 +26,32 @@ The testing focus is on core user flows to ensure a seamless booking experience:
 * **Checkout:** Complete Space Travel Checkout flow.
 
 ---
+
+## Repository Structure & Navigation
+
+This project follows a modular documentation approach, organized by **User Story (US)** to ensure full traceability between requirements and test execution.
+
+```text
+/documentation
+│
+├── /bug-reports                # Detailed reports of identified defects
+│   ├── BUG-001-Authentication-Bypass.md
+│   ├── BUG-002-Returning-date-automatically-populated-by-Departing-date-selection.md
+│   ├── BUG-003-Residual-Load-More-Button.md
+│   ├── BUG-004-Pay-Now-is-Non-Functional.md
+│   └── evidence              # Screenshots and media for bug reproduction
+│
+└── /test-documentation         # Core testing artifacts
+    ├── /US01-user-login        # User Story Description, Acceptance Criteria & Test Cases for Authentication
+    ├── /US02-Select-Destination...  # User Story Description, Acceptance Criteria & Test Cases for Booking Flow
+    ├── /US03-Browse-and-Filter-Destinations  # User Story Description, Acceptance Criteria & Test Cases for Filtering
+    ├── /US04-Complete-Space-Travel-Checkout...  # User Story Description, Acceptance Criteria & Test Cases for Checkout
+    │
+    ├── Test-Summary-Report.md  # Overall execution metrics & final assessment
+    ├── requirement-analysis.md # Analysis of functional & non-functional requirements
+    └── user-story-mapping.md   # High-level overview of the user journey
+
+```
 
 ## QA Strategy & Applied Skills
 
