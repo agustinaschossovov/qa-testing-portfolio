@@ -63,7 +63,7 @@ For the **Space Advisor** project, I integrated my professional background with 
 * **Traceability:** Maintained **Bidirectional Traceability** to ensure every requirement is covered by at least one test case.
 * **Test Design:** I designed comprehensive **Test Scenarios** using two complementary approaches:
     * **Formal Test Case Structure:** Used for granular, step-by-step technical validation and maximum coverage.
-    * **BDD (Behavior Driven Development):** Applied specifically to core user journeys using **Gherkin syntax** (Given/When/Then) to demonstrate readiness for collaboration and future automation.
+    * **BDD (Behavior Driven Development):** Applied specifically to core user journeys using **Gherkin syntax** (Given/When/Then) to demonstrate readiness for collaboration and future automation.(Just used for TC01 and TC02 for test cases of US01)
 * **Test Design Techniques:** I designed comprehensive **Test Scenarios** using formal Black-Box techniques:
 
 ## Testing Techniques Summary
