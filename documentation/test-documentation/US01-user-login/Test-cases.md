@@ -16,29 +16,41 @@ This document contains the prioritized test cases for the Login functionality, d
 
 ## Critical Test Cases
 
-### TC_01: Valid Log In (Happy Path)
-* **Technique:** Use Case Testing.
-* **Pre-conditions:** Browser open at `https://demo.testim.io/`.
-* **Test Data:** `User: user1` | `Pass: user1234`
+### TC_01:
 
-| Step | Action | Expected Result |
-| :--- | :--- | :--- |
-| 1 | Enter the URL and click "Log In" from the header. | Login view is displayed correctly. |
-| 2 | Enter valid username and password. | Fields accept the input. |
-| 3 | Click "Log In" button. | **Page redirects to the Main Page.** |
-| 4 | Verify the header content. | **"Hello, John" appears in the header instead of "Log In".** |
+ Scenario: Successful login with valid credentials (Happy Path)
+ 
+    Given the user is on "https://demo.testim.io/"
+    When the user clicks on "Log In" in the header
+    Then the login view should be displayed
 
+    When the user enters username "user1"
+    And the user enters password "user1234"
+    Then the fields should accept the input
+
+    When the user clicks on "Log In" button
+    Then the user should be redirected to the main page
+    And the header should display "Hello, John"
+    And the "Log In" option should not be visible
 ---
 
-### TC_02: Mandatory Field Validation (Empty Password / Empty Username)
+### TC_02: 
+
 * **Technique:** Equivalence Partitioning (Negative).
 
-| Step | Action | Expected Result |
-| :--- | :--- | :--- |
-| 1 | Enter a valid username but leave the Password field empty. | Input accepted in username. |
-| 2 | Click "Log In". | **System prevents login and an error message appears "Password is a required field."** |
-| 3 | Enter a valid password but leave the Username field empty. | Input accepted in password. |
-| 4 | Click "Log In". | **System prevents login and an error message appears "Name is a required field."** |
+Scenario: Login fails when mandatory fields are empty
+   
+    Given the user is on the login page
+    When the user enters username "<username>"
+    And the user enters password "<password>"
+    And the user clicks on "Log In" button
+    Then the login should be prevented
+    And an error message "<error_message>" should be displayed
+
+    Examples:
+      | username | password  | error_message                        |
+      | user1    |           | Password is a required field.        |
+      |          | user1234  | Name is a required field.            |
 
 ---
 
