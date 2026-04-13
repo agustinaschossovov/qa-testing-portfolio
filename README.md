@@ -1,7 +1,7 @@
 # QA Testing Portfolio - By Agustina Schossovov
 
 ## Introduction
-I am a **QA Analyst** with over **3+ years** of professional experience focused on ensuring the quality of web and mobile applications.
+I am a **QA Analyst** with over **4+ years** of professional experience focused on ensuring the quality of web and mobile applications.
 
 > [!IMPORTANT]
 > This document is dynamic and will be updated over time to include additional testing types, demonstrating my adaptability to different project needs.
