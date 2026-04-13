@@ -5,6 +5,7 @@ I am a **QA Analyst** with over **4+ years** of professional experience focused 
 
 > [!IMPORTANT]
 > This document is dynamic and will be updated over time to include additional testing types, demonstrating my adaptability to different project needs.
+>
 > Upcoming: E2E Tests and Automated tests. 
 
 ---
