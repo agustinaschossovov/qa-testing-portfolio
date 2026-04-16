@@ -36,7 +36,7 @@ Nothing happens. No redirection to a success page, no loading spinner, and no co
 ### ✅ Expected Result
 Upon clicking "PAY NOW" with valid data, the system should process the payment and redirect the user to a **Booking Confirmation** page or show a success message.
 
-### 🛠️ Technical Environment
+### Technical Environment
 * **Browser:** Chrome / Firefox / Safari (Tested on multiple browsers)
 * **Device:** Desktop & Mobile
 * **Impact:** 100% of users are unable to complete checkout.
